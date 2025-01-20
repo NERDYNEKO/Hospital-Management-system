@@ -1,0 +1,62 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffcce7; /* Light pink */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #ff99cc;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff99cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff66a3;
+}
+
+.hidden {
+  display: none;
+}
